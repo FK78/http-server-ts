@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { configObject } from "src/config";
+import { configObject } from "../config.js";
 
 export async function handlerResetMetrics(
   _: Request,
